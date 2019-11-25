@@ -11,6 +11,8 @@
   },
   "version": "0.1.0",
   "devDependencies": {
+    "@testing-library/dom": "^6.10.1",
+    "@testing-library/jest-dom": "^4.2.4",
     "babel-jest": "^24.9.0",
     "babel-preset-es2015": "^6.24.1",
     "jest": "^24.9.0",
