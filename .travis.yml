@@ -1,0 +1,12 @@
+cache:
+  bundler: true
+  yarn: true
+node_js:
+  - 'lts/*'
+before_install:
+  - nvm install 8.16.0
+before_script:
+  - yarn
+script:
+  - bin/rails test
+  - bin/rails test:js
